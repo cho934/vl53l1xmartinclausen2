@@ -1,0 +1,27 @@
+{
+    "name": "VL53L1Xmartinclausen2",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "vl53l1x-calliopemini": "github:martinclausen2/vl53l1x-calliope#69273c4ce87d3bc9d958895c31153922df7b95fa",
+        "datalogger": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "7.0.61",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
